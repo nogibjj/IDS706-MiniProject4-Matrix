@@ -1,55 +1,79 @@
-[![CI](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml)
 
-# Template for IDS706 weekly mini-projects 
+# GitHub Actions Matrix Build for Multiple Python Versions
 
 ## Goal
 
-> Duke University IDS 706 Weekly Mini Project 1
+> Duke University IDS 706 Weekly Mini Project 4
 
-This is a repo template for duke course IDS706 Data Engineering Mini Project (Fall 2023). It contains:
+- Set up a GitHub Actions workflow
+- Test across at least 3 different Python versions
 
-`.devcontainer` includes a Dockerfile and devcontainer.json. The 'Dockerfile' within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
+![Python 3.6 Build Status](https://github.com/nogibjj/IDS706-MiniProject4-Matrix/workflows/Build%20on%20Python%203.6/badge.svg?branch=main&event=push)
 
-`workflows` includes GitHub Actions, which contain configuration files for setting up automated build, test, and deployment pipelines for your project.
+![Python 3.7 Build Status](https://github.com/nogibjj/IDS706-MiniProject4-Matrix/workflows/Build%20on%20Python%203.7/badge.svg?branch=main&event=push)
 
-`.gitignore` is used to specify which files or directories should be excluded from version control when using Git.
+![Python 3.8 Build Status](https://github.com/nogibjj/IDS706-MiniProject4-Matrix/workflows/Build%20on%20Python%203.8/badge.svg?branch=main&event=push)
 
-`Makefile` is a configuration file used in Unix-based systems for automating tasks and building software. It contains instructions and dependencies for compiling code, running tests, and other development tasks.
+![Python 3.9 Build Status](https://github.com/nogibjj/IDS706-MiniProject4-Matrix/workflows/Build%20on%20Python%203.9/badge.svg?branch=main&event=push)
 
-`requirements.txt` is to specify the Python package dependencies (libraries and packages).
-
-`test_main.py` is a test file for main.py that can successfully run in IDEs.
-
-`Github Actions` to run the Makefile as follows: make install, make test, make format, make lint.
+![Python 3.10 Build Status](https://github.com/nogibjj/IDS706-MiniProject4-Matrix/workflows/Build%20on%20Python%203.10/badge.svg?branch=main&event=push)
 
 
 
+
+
+------------ Below is the old mini project ------------
+
+------------ Below is the old mini project ------------
+
+------------ Below is the old mini project ------------
+
+
+This project is:
+- Python script using Polars for descriptive statistics 
+- Read a dataset (as above)
+- Generate summary statistics (mean, median, standard deviation)
+- Create one data visualization
 
 ## Preparation
 
-1. Open in the Github codespaces
-2. Do simple test in the terminal
+1. make sure a data.csv file is in the same directory as main.py
+2. Python 3 or above
+3. Pandas
+4. matplotlib.pyplot 
+5. The dataset file is as follow:
+
+![img.png](img/img.png)
 
 ## Run and Result
 
-This section is saved for later mini projects.
-🌰 Example in the Github Codespace 
+### Run
+use
+`python main.py`
 
-make format
+Upon running the script, it will display the mean, median, and standard deviation of the dataset. Then, a bar chart showing the Salary distribution will be displayed using matplotlib.
 
-![Make Formate Img](image.png)
+### Result
 
+To show correctly reading the dataset, I use the head() function to display the first 5 rows of the dataset
 
-make lint
+![img_4.png](img/img_4.png)
 
-![Lint Test](image-1.png)
+Further, I display the basic statistics of the dataset and three summary of statistics
 
-make test
+![img_1.png](img/img_1.png)
 
-![Test Result](image-2.png)
+For the data visualization, I plot the histogram of the `Salary` of the dataset:
+
+![img_2.png](img/img_2.png)
+
+### Test
+
+use 
+`make test` or `python test_main.py` to test the script
+
+![img_3.png](img/img_3.png)
 
 ## Reference
 
 1.  https://github.com/nogibjj/python-template
-2.  https://github.com/helenyjx/Rust-Powered-Calculator-Microservice-in-the-Cloud
-
