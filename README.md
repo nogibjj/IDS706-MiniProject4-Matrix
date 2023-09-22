@@ -1,6 +1,9 @@
 
 # GitHub Actions Matrix Build for Multiple Python Versions
 
+![Test Python Versions Status](https://github.com/nogibjj/IDS706-MiniProject4-Matrix/workflows/Test%20Python%20Versions/badge.svg?branch=main&event=push)
+
+
 ## Goal
 
 > Duke University IDS 706 Weekly Mini Project 4
@@ -8,25 +11,21 @@
 - Set up a GitHub Actions workflow
 - Test across at least 3 different Python versions
 
-![Python 3.6 Build Status](https://github.com/nogibjj/IDS706-MiniProject4-Matrix/workflows/Build%20on%20Python%203.6/badge.svg?branch=main&event=push)
+## Deliverables
 
-![Python 3.7 Build Status](https://github.com/nogibjj/IDS706-MiniProject4-Matrix/workflows/Build%20on%20Python%203.7/badge.svg?branch=main&event=push)
+- Results are shown as below:
 
-![Python 3.8 Build Status](https://github.com/nogibjj/IDS706-MiniProject4-Matrix/workflows/Build%20on%20Python%203.8/badge.svg?branch=main&event=push)
-
-![Python 3.9 Build Status](https://github.com/nogibjj/IDS706-MiniProject4-Matrix/workflows/Build%20on%20Python%203.9/badge.svg?branch=main&event=push)
-
-![Python 3.10 Build Status](https://github.com/nogibjj/IDS706-MiniProject4-Matrix/workflows/Build%20on%20Python%203.10/badge.svg?branch=main&event=push)
+![img.png](img.png)
 
 
 
 
 
------------- Below is the old mini project ------------
+------------------------ Below is the old mini project ------------------------
 
------------- Below is the old mini project ------------
+------------------------ Below is the old mini project ------------------------
 
------------- Below is the old mini project ------------
+------------------------ Below is the old mini project ------------------------
 
 
 This project is:
