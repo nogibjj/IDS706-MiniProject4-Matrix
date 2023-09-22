@@ -1,8 +1,7 @@
 
 # GitHub Actions Matrix Build for Multiple Python Versions
 
-![Test Python Versions Status](https://github.com/nogibjj/IDS706-MiniProject4-Matrix/workflows/Test%20Python%20Versions/badge.svg?branch=main&event=push)
-
+[![Test Python Versions](https://github.com/nogibjj/IDS706-MiniProject4-Matrix/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Jeremy_Tan_IDS706_Week4/actions/workflows/cicd.yml)
 
 ## Goal
 
