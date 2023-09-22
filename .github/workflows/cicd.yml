@@ -1,4 +1,4 @@
-name: CI
+name: Test Python Versions
 on:
   push:
     branches: [ "main" ]
@@ -11,9 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
         matrix:
-            python-version: [3.6, 3.7, 3.8, 3.9, 3.10]
+            python-version: [3.6, 3.7, 3.8, 3.9, 3.10.x]
 
     steps:
+      - uses: actions/checkout@v2
       - name: Build on Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
         with:
